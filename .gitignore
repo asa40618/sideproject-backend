@@ -31,7 +31,6 @@ yarn.lock
 data/json/faker-users.json
 testotp.js
 data/json/fake-product.json
-.env
 
 make-product-sample.js
 data/product-n2m.sql
