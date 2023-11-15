@@ -13,6 +13,7 @@ const pool = mysql.createPool({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_DATABASE,
   dateStrings: true, // 轉換日期字串格式用
+  INSTANCE_UNIX_SOCKET: process.env.INSTANCE_UNIX_SOCKET,
 })
 
 // 啟動時測試連線
